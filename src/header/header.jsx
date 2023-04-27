@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Header(props) {
     return (
-        <header className="flex flex-row bg-white lg:w-2/3 mx-auto lg:p-6 space-x-12 text-center shadow-xl w-11/12 rounded-lg p-3 mt-4">
+        <header className="flex flex-row bg-white lg:w-2/3 mx-auto lg:p-6 space-x-12 text-center shadow-lg w-11/12 rounded-lg p-3 mt-4">
           <h1 className="text-3xl font-bold font-Rochester lg:mt-0 lg:ml-0 mt-2 ml-2">Exclusive</h1>
 
           <div className="hidden lg:block">
