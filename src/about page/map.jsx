@@ -14,6 +14,6 @@ export default function Mapfirst(params) {
       ) 
 
       return(
-        <div>{mapover}</div>
+        <div className="">{mapover}</div>
       )
 }

@@ -6,9 +6,9 @@ import parlor from '/public/Rectangle 8.png'
 
 export default [
     {
-       sittingchair : './public/rectangle 5.png',
+       sittingchair : './Rectangle 5.png',
     },
     {
-        sittingchair : './public/Rectangle 8.png',
+        sittingchair : './Rectangle 8.png',
     }
 ]

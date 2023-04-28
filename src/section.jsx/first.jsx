@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
-import arrow from '/public/svg/Elements.png'
+import arrow from '/svg/Elements.png'
 
 
 export default function Section(props) {

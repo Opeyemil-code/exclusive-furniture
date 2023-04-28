@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactDOM } from "react";
-import pic from '/public/Union.png'
+import pic from '/Union.png'
 
 export default function Image(params) {
     return(

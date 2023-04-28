@@ -14,6 +14,6 @@ export default function Mapthrough(params) {
     )
 
     return(
-        <div>{mapping}</div>
+        <div className="">{mapping}</div>
     )
 }
