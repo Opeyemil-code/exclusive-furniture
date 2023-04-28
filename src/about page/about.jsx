@@ -9,10 +9,10 @@ export default function About() {
     return(
         <section className="lg:w-2/3 mx-auto bg-green-90 bg mt-10 lg:flex-row flex-col ">
              <div className="flex flex-col bg-red- text-cente">
-                <h1 className="text-3xl font-bold font-Roboto text-darkblue lg:ml-28 mx-auto lg:mx-0">
+                <h1 className="text-3xl font-bold font-Inter text-darkblue lg:ml-28 mx-auto lg:mx-0">
                   About Us
                 </h1>
-                <p className="lg:ml-28 lg:w-96 opacity-75 lg:text-0 w-80 ml-6">
+                <p className="lg:ml-28 lg:w-96 opacity-75 lg:text-0 w-80 ml-6 text-center font-Inter">
                 Comfort is key and how you feel about your chair will affect how you feel and your mood.
                 </p>
              </div>
@@ -24,7 +24,7 @@ export default function About() {
            <Mapthrough />
            </div>
 
-           <div className="flex flex-row  space-x-4 lg:w-96 w-72 mx-auto lg:mt-0 mt-8">
+           <div className="flex lg:flex-row flex-col  lg:space-x-4 lg:w-96 w-72 mx-auto lg:mt-0 mt-8 space-y-6">
              <FirstImage />
              <Secondimage />
            </div>
