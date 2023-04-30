@@ -5,6 +5,7 @@ import Image from "./imagesection.jsx/image";
 import About from "./about page/about";
 import Productmap from "./product/type/type";
 import Product from "./product/section";
+import Reviews from "./reviews/reviews";
 export default function App(params) {
       return(
         <div>
@@ -13,6 +14,7 @@ export default function App(params) {
         <Image />
         <About />
         <Product />
+        <Reviews />
       </div>
       )
 }

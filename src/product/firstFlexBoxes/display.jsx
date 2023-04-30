@@ -7,7 +7,7 @@ export default function DisplayFirst(props) {
 
         <img src={props.display.img} alt="" className="w-60 h-60 z-50 absolute top-" />
 
-               <div className="bg-blue-90  py-4  bg-whit  mt- lg:px-16 ml- flex lg:flex-row space-x-8 lg:space-x-3 shadow-2xl rounded-lg shadow-b-black mt-28 px-16 ">
+               <div className="bg-blue-90  py-4  bg-whit  mt- lg:px-16 ml- flex lg:flex-row space-x-8 lg:space-x-3 shadow-2xl rounded-lg shadow-b-black mt-28 px-16 drop-shadow-xl">
 
                    <div className="bg-blue-90  flex flex-row space-x-8 lg:px-0 px-5">
 
