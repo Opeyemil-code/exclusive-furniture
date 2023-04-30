@@ -1,11 +1,11 @@
 import React from "react";
 import data from "./data";
-import DisplayFirst from "./display";
-export default function Mapover(params) {
+import DisplaySecond from "./display";
+export default function Mapon(params) {
     const mapOver = data.map(
         (params) => {
             return(
-               <DisplayFirst 
+               <DisplaySecond 
                key={params.id}
                display={params}/>
             )
@@ -13,6 +13,6 @@ export default function Mapover(params) {
     )
 
     return(
-        <div className="flex lg:flex-row flex-col space-x- bg-green-90 ">{mapOver}</div>
+        <div className="flex lg:flex-row flex-col lg:space-x-3 bg-green-90 ">{mapOver}</div>
     )
 }

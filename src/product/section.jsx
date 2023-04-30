@@ -3,6 +3,7 @@ import { ReactDOM } from "react";
 import Type from "./type/display";
 import Productmap from "./type/type";
 import Mapover from "./firstFlexBoxes/map";
+import Mapon from "./secondFlexBoxes/map";
 export default function Product(params) {
     return(
         <section className="bg-green-90 lg:w-2/3 mx-auto mt-8">
@@ -14,6 +15,7 @@ export default function Product(params) {
             <div>
             <Productmap />
             <Mapover />
+            <Mapon />
             </div>
         </section>
     )

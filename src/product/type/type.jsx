@@ -14,7 +14,7 @@ export default function Productmap(params) {
     )
 
     return(
-        <div className="flex flex-row lg:space-x-5 lg:w-96 lg:mx-auto mt-6 ">
+        <div className="flex flex-row lg:space-x-5 lg:w-96 lg:mx-auto mt-6 font-bolder">
             {map}
         </div>
     )

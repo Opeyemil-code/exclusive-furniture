@@ -1,19 +1,18 @@
 import React from "react";
 
-export default function DisplayFirst(props) {
+export default function DisplaySecond(props) {
       return(
-
         <div className="flex flex-col bg-yellow-90 mx-auto mt-10">
 
-        <img src={props.display.img} alt="" className="w-60 h-60 z-50 absolute top-" />
+        <img src={props.display.img} alt="" className="w-55 h-55 z-50 absolute top- ml-12 lg:ml-4" />
 
-               <div className="bg-blue-90  py-4  bg-whit  mt- lg:px-16 ml- flex lg:flex-row space-x-8 lg:space-x-3 shadow-2xl rounded-lg shadow-b-black mt-28 px-16 ">
+               <div className="bg-blue-90  py-4  bg-whit  mt- lg:px-16 ml- flex lg:flex-row space-x-8 lg:space-x-6 shadow-2xl rounded-lg shadow-b-black mt-28 px-16 ">
 
-                   <div className="bg-blue-90  flex flex-row space-x-8 lg:px-0 px-5">
+                   <div className="bg-blue-90  flex flex-row space-x-8  px-5 lg:px-0">
 
                    <div className="mt-40 flex flex-col ">
                      <h1 className="font-bold text-darkblue font-Inter mt-">{props.display.text}</h1>
-                     <p className="text-md">{props.display.price}</p>
+                     <p className="text-md font-Inter">{props.display.price}</p>
                     </div>
 
                     <div className="mt-48">
@@ -23,6 +22,5 @@ export default function DisplayFirst(props) {
                    </div>
                   </div> 
             </div>
-        
       )
 }
