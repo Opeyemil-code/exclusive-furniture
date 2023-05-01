@@ -6,6 +6,7 @@ import About from "./about page/about";
 import Productmap from "./product/type/type";
 import Product from "./product/section";
 import Reviews from "./reviews/reviews";
+import Contact from "./contact/contact";
 export default function App(params) {
       return(
         <div>
@@ -15,6 +16,7 @@ export default function App(params) {
         <About />
         <Product />
         <Reviews />
+        <Contact />
       </div>
       )
 }

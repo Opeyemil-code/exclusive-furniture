@@ -1,7 +1,7 @@
 export default [
     {
         id : 1,
-        img : './Tablelamp.png',
+        img : '/Tablelamp.png',
         text : 'Table Lamp',
         arrow: './svg/icons8-arrow-30.png',
         price : '$50'
