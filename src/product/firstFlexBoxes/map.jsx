@@ -13,6 +13,6 @@ export default function Mapover(params) {
     )
 
     return(
-        <div className="flex lg:flex-row flex-col space-x- bg-green-90 ">{mapOver}</div>
+        <div className="flex lg:flex-row flex-col space-x- bg-green-90">{mapOver}</div>
     )
 }
