@@ -1,9 +1,19 @@
-import React from "react";
+import React, {useEffect} from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+
 
 export default function DisplayFirst(props) {
-      return(
 
-        <div className="flex flex-col bg-yellow-90 mx-auto mt-10">
+    useEffect(
+        () =>{
+            Aos.init({duration : 2000})
+        }, []
+    )
+
+
+      return(
+        <div className="flex flex-col bg-yellow-90 mx-auto mt-10" data-aos="flip-right">
 
         <img src={props.display.img} alt="" className="w-60 h-60 z-50 absolute top-" />
 
