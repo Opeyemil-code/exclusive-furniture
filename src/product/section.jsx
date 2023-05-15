@@ -20,7 +20,7 @@ export default function Product(params) {
 
 
    return(
-        <section className="bg-green-90 lg:w-2/3 mx-auto mt-8" data-aos="flip-right">
+        <section className="bg-green-90 lg:w-2/3 mx-auto mt-8" data-aos="flip-righ">
             <div className="w-2/3 mx-auto ">
                 <h2 className="text-center text-5xl text-darkblue font-bold font-roboto">Products</h2>
             </div>

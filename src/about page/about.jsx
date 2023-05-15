@@ -40,6 +40,7 @@ export default function About() {
            <div className="flex lg:flex-row flex-col  lg:space-x-4 lg:w-96 w-72 mx-auto lg:mt-0 mt-8 space-y-6" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
+
              <FirstImage />
              <Secondimage />
            </div>
