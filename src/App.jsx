@@ -9,7 +9,7 @@ import Contact from "./contact/contact";
 import Footer from "./footer/footer";
 export default function App(params) {
       return(
-        <div>
+        <div className="">
         <Nav />
         <MapSection />
         <Image />
