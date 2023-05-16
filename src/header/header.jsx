@@ -43,8 +43,8 @@ function handleMenu(params) {
          </div>
          
           {open ? (
-          <div className="hidde lg:block absolute bg-white rounded-lg shadow-md shadow-black lg:w-full  lg:h-0 h-64 lg:mt-0 mt-16 z-50 w-5/6" data-aos="flip-right">
-          <nav  className="flex flex-col  lg:flex-row lg:space-x-8 lg:ml-52 lg:text-lg font-Roboto text-darkblue absolu text-xl mt-6 space-y-4 lg:space-y-0">
+          <div className="hidde lg:block absolute bg-white rounded-lg shadow-md shadow-black lg:w-full  lg:h-0 h-64 lg:mt-0 mt-16 z-50 w-5/6 h-96" data-aos="flip-right">
+          <nav  className="flex flex-col  lg:flex-row lg:space-x-8 lg:ml-52 lg:text-lg font-Roboto text-darkblue absolu text-xl mt-16 space-y-4 lg:space-y-0">
            <a href="http://">{props.display.homeBtn}</a>
            <a href="http://">{props.display.aboutBtn}</a>
            <a href="http://">{props.display.productBtn}</a>
@@ -66,7 +66,7 @@ function handleMenu(params) {
 
 
         <div className="">
-         <button className="lg:hidden z-50 ml-40 " onClick={handleMenu}>
+         <button className="lg:hidden z-50 ml-44 mt-3" onClick={handleMenu}>
             <span className="sr-only">Open Main Menu</span>
             {open == true ? <FaTimes className="w-4 h-6"/> : <FaBars className="w-4 h-6"/> }
          </button>
